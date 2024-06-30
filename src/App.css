@@ -2,7 +2,13 @@
   text-align: center;
 }
 .main{
-  text-align: center;
+  width: 500px;
+  border: 2px solid rgb(253, 214, 220);
+  padding: 20px;
+  background-color: rgb(253, 214, 220);
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  transform: translateX(-50%);
+  margin-left: 50%;
 }
 
 input{
@@ -15,8 +21,15 @@ input{
 }
 button{
   padding: 10px;
-  width: 80px;
   font-size: 20px;
+ 
   background-color: white;
   border-radius: 10px;
+}
+.Btn{
+  width: 80px;
+}
+ul > li{
+  font-size: 20px;
+  margin-bottom: 10px;
 }
