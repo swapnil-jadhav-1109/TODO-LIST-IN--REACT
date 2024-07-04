@@ -22,8 +22,10 @@ input{
 button{
   padding: 10px;
   font-size: 20px;
- 
-  background-color: white;
+ cursor: pointer;
+ background-color: rgb(2, 2, 91);
+  color: white;
+  border: none;
   border-radius: 10px;
 }
 .Btn{
