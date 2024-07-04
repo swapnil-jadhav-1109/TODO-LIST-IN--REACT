@@ -30,11 +30,11 @@ function App() {
         onChange={(e) => setNewTask(e.target.value)}
        placeholder='Add New Items'
         />
-     <button className="Btn" onClick={addTask}>Add</button>
+     <button className="Btn" onClick={addTask}>+</button>
      <ul>
         {tasks.map((task, index) => (
           <li key={index}>
-            {task} <button onClick={() => removeTask(index)}>Remove</button>
+            <button onClick={() => removeTask(index)}>-</button> {task}
           </li>
         ))}
       </ul>

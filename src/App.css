@@ -14,22 +14,30 @@
 input{
   height: 20px;
   width: 250px;
+  border: none;
   border-radius: 10px;
  padding: 10px;
  font-size: 20px;
  margin-right: 20px;
+ outline: none;
+ 
 }
 button{
-  padding: 10px;
-  font-size: 20px;
- cursor: pointer;
- background-color: rgb(2, 2, 91);
-  color: white;
+  height: 40px;
   border: none;
-  border-radius: 10px;
+  width: 40px;
+  padding: 5px;
+  border-radius: 50%;
+  background-color: rgb(2, 2, 91);
+  color: white;
+  font-size: 25px;
+  cursor: pointer;
+  margin-right: 10px;
+  text-align: center;
+  padding-top: 3px;
 }
-.Btn{
-  width: 80px;
+button:hover{
+  background-color: rgb(2, 174, 2);
 }
 ul > li{
   font-size: 20px;
